@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <h1>Forms</h1>
+  <a href="./index.html">Home</a>
+  <a href="./about.html">About</a>
+  <a href="./contact.html">Contact</a>
+  <a href="./services.html">Services</a>
+  <a href="./blog.html">Blog</a>
+  <form action="#">
+    <h1 align="center">Admision Form</h1>
+    <p>user name :
+      <input type="text" Name="username" size="25" maxlength="12" />
+    </p>
+    <p>
+      Password :
+      <input type="password" name:="password" size="25" maxlength="15" />
+    </p>
+    <p>
 
+      What did you think of this page?
+    </p>
+    <textarea name="comments" cols="30" rows="2" size="25">
+enter your comments...</textarea>
+
+    <p>Please select your favorite genre:
+      <br />
+      <input type="radio" name="genrel" value="rock" /> Rock
+      <input type="radio" name="genrel" value="pop" checked="checked" />
+      Pop
+      <input type="radio" name="genrel" value="jazz" />
+      Jazz
+    </p>
+    <p>Please select your favorite music service(s):
+      <br />
+      <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+      <input type="checkbox" name="service" value="lastfm" /> Last.fm
+      <input type="checkbox" name="service" value="spotify" /> Spotify
+    </p>
+
+    <p>What device do you listen to music on?</p>
+    <select name="devices">
+      <option value="ipod">iphone</option>
+      <option value="radio">Radio</option>
+      <option value="computer">Computer</option>
+      <option value="ipod">iPod</option>
+      <option value="radio" selected>Television</option>
+      <option value="computer">laptop</option>
+    </select>
+    <p>Do you play any of the following instruments?
+      (You can select more than one option by holding
+      down control on a PC or command key on a Mac
+      while selecting different options.)</p>
+    <select name="instruments" size="3" multiple="multiple">
+      <option value="guitar" selected="selected">
+        Guitar</option>
+      <option value="drums">Drums</option>
+      <option value="keyboard" selected="selected">Keyboard</option>
+      <option value="bass">Bass</option>
+    </select>
+    <p>Upload your song in MP3 format:</p>
+    <input type="file" name="user-song" /><br />
+    <input type="submit" value="Upload" />
+
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe" value="Subscribe me" />
+
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="image" src="#" width="100" height="20" />
+<button><img src="./Images/1.png" alt="add" 
+width="10" height="10" /> Add</button>
+ <input type="hidden" name="bookmark" 
+value="lyrics" />
+  </form>
+
+</body>
+</html>
